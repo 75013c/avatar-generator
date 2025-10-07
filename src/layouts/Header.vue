@@ -6,7 +6,7 @@
 
     <div class="header-right">
       <a
-        href="https://github.com/Codennnn/vue-color-avatar"
+        href="https://github.com/75013c/avatar-generator"
         target="_blank"
         rel="nofollow noopener noreferrer"
       >
