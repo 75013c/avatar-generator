@@ -23,22 +23,26 @@ This project provides a complete frontend solution with no backend dependencies,
 
 ## Function
 
-**Avatar Customization**
-<img src="./images/social-preview-1.png" alt="website-cover" />
+### Avatar Customization
+
+<img src="./images/avatar-customization.png" alt="avatar-customization" />
+
 The avatar customization system is centered around the component, which provides a scrollable sidebar interface for modifying avatar properties. Users can customize wrapper shapes, background colors, border colors, and individual facial features through dedicated sections.
 
 The interface uses the hook for state management and provides immediate visual feedback when users make changes.
 
-**Random Generation**
-<img src="./images/social-preview-1.png" alt="website-cover" />
+### Random Generation
+
+<img src="./images/random-generation.png" alt="random-generation" />
+
 The random generation system creates diverse, aesthetically pleasing avatars by intelligently selecting widget shapes, colors, and configurations while avoiding visual conflicts.
 
 It is built around several key utility functions that handle different aspects of avatar randomization. The main entry point is which orchestrates the generation of a complete random avatar configuration.
 
 The system includes logic to prevent visual conflicts between avatar elements, particularly between hair colors and background colors for specific hairstyles:
 
-**Avatar Export**
-<img src="./images/social-preview-1.png" alt="website-cover" />
+### Avatar Export
+
 The Avatar Export system provides functionality for downloading generated avatars in PNG format, supporting both single avatar downloads and batch downloads of multiple avatars packaged in ZIP archives. 
 
 The export system automatically detects browser compatibility and adjusts the download method accordingly. For incompatible browsers, it displays the image in a modal instead of triggering a direct download.
